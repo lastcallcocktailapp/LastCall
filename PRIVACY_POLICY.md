@@ -26,4 +26,4 @@ We may update this Privacy Policy if the App's features or information practices
 
 ## Contact
 
-For privacy questions, contact us at [hotphix@gmail.com](mailto:hotphix@gmail.com).
+For privacy questions, contact us at [lastcallcocktailappios@gmail.com](mailto:lastcallcocktailappios@gmail.com).
