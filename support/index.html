@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#173c35">
+  <meta name="description" content="Contact Last Call support for help with the cocktail recipe app.">
+  <title>Last Call Support</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #173c35;
+      --paper: #f7f5ed;
+      --accent: #b84e34;
+      --muted: #53645d;
+      --line: #d8ddd3;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: ui-sans-serif, system-ui, sans-serif;
+      line-height: 1.6;
+    }
+
+    header {
+      padding: 1rem max(1.25rem, calc((100vw - 58rem) / 2));
+      border-bottom: 1px solid var(--line);
+      font-size: 0.9rem;
+      font-weight: 700;
+    }
+
+    main {
+      max-width: 58rem;
+      margin: 0 auto;
+      padding: clamp(3rem, 9vw, 6.5rem) 1.25rem 5rem;
+    }
+
+    h1 {
+      max-width: 12ch;
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(2.8rem, 8vw, 5rem);
+      font-weight: 400;
+      line-height: 1.05;
+    }
+
+    .intro {
+      max-width: 38rem;
+      margin: 1.25rem 0 2rem;
+      color: var(--muted);
+      font-size: 1.1rem;
+    }
+
+    .contact {
+      display: inline-block;
+      padding: 0.75rem 1.1rem;
+      background: var(--accent);
+      color: #fff;
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    .contact:hover, .contact:focus-visible { background: var(--ink); }
+
+    section {
+      max-width: 38rem;
+      margin-top: 4rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--line);
+    }
+
+    h2 {
+      margin: 0 0 0.5rem;
+      font-size: 1.05rem;
+    }
+
+    p { margin: 0.5rem 0; }
+
+    a { color: var(--accent); }
+
+    footer {
+      padding: 1.25rem;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    footer p { max-width: 58rem; margin: 0 auto; }
+
+    @media (prefers-reduced-motion: no-preference) {
+      main { animation: arrive 450ms ease-out both; }
+      @keyframes arrive {
+        from { opacity: 0; transform: translateY(0.6rem); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>Last Call</header>
+  <main>
+    <h1>How can we help?</h1>
+    <p class="intro">For help with the Last Call cocktail recipe app, email our support team. We’ll be glad to hear from you.</p>
+    <a class="contact" href="mailto:lastcallcocktailappios@gmail.com?subject=Last%20Call%20Support">Email support</a>
+
+    <section aria-labelledby="include-heading">
+      <h2 id="include-heading">Help us understand the issue</h2>
+      <p>Include the app version and your device model and operating system version. If your question is about a recipe, include its name. Please don’t send passwords or payment information.</p>
+    </section>
+  </main>
+  <footer>
+    <p><a href="https://github.com/lastcallcocktailapp/LastCall/blob/main/PRIVACY_POLICY.md">Privacy Policy</a></p>
+  </footer>
+</body>
+</html>
